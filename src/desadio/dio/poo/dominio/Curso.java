@@ -1,8 +1,7 @@
 package desadio.dio.poo.dominio;
 
 public class Curso {
-	
-	private String tiutulo;
+	private String titulo;
 	private String descricao;
 	private int cargaHoraria;
 	
@@ -10,11 +9,11 @@ public class Curso {
 	public Curso() {
 		
 	}
-	public String getTiutulo() {
-		return tiutulo;
+	public String getTitulo() {
+		return titulo;
 	}
-	public void setTiutulo(String tiutulo) {
-		this.tiutulo = tiutulo;
+	public void setTitulo(String titulo) {
+		this.titulo = titulo;
 	}
 	public String getDescricao() {
 		return descricao;
@@ -30,7 +29,10 @@ public class Curso {
 	}
 	@Override
 	public String toString() {
-		return "Curso [tiutulo=" + tiutulo + ", descricao=" + descricao + ", cargaHoraria=" + cargaHoraria + "]";
+		return "Curso [titulo=" + titulo + ", descricao=" + descricao + ", cargaHoraria=" + cargaHoraria + "]";
 	}
-
+    
 }
+
+	
+
